@@ -18,23 +18,23 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 18%;
+  width: 15%;
   /*height: 300px;  only for demonstration, should be removed */
-  background: #ccccff;
-  padding: 40px;
+  background: #FFFFFF;
+  padding: 30px;
 }
 
 /* Style the list inside the menu */
 nav ul {
   list-style-type: none;
-  padding:  60px;
+  padding:  0;
 }
 
 article {
   float: left;
   padding: 20px;
   width: 70%;
-  background-color: #FFFFFF;
+  background-color: #ccccff;
   /* height: 300px;  only for demonstration, should be removed */
 }
 
@@ -69,7 +69,6 @@ footer {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
